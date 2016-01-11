@@ -11,4 +11,4 @@ This benchmark updates the original ASKAP benchmark tConvolveMPI, to support bot
 and OpenMP parallel capabilities.
 
 Benchmark shows at least 20% performance enhancement to the Original tConvolveMPI on
-a 2 socket E5-2670/64GB machone. 
+a 2 socket E5-2670/64GB machine. 
