@@ -91,14 +91,6 @@ Included is an example makefile (Makefile.intel) which will use the Intel Compil
 Intel Math Kernel library (MKL). This example can be easily adapted for other compilers
 and/or BLAS library implementations.
 
-Submitting Results
-------------------
-The full output from the execution of the benchmark should be submitted. Where an
-optimized BLAS library is used both the results of the non-BLAS and BLAS enabled runs
-should be submitted.
-
-Where modification to either code or makefile is required, these modifications should
-be submitted along with the results.
 
 Interpretation of Results
 -------------------------
