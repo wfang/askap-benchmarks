@@ -4,8 +4,8 @@ ASKAP Benchmark Packages
 
 Please see https://github.com/ATNF/askap-benchmarks for the original ASKAP Benchmark.
 
-This Benchmark Packages
-=======================
+This Benchmark Package
+======================
 
 This benchmark updates the original ASKAP benchmark tConvolveMPI, to support both MPI 
 and OpenMP parallel capabilities.
