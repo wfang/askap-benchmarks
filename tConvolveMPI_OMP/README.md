@@ -19,20 +19,8 @@ Building and execution of the benchmark requires:
 * A C++ compiler (e.g. GCC)
 * Make
 * MPI (e.g. OpenMPI, MPICH)
+* OpenMP
 
-Building
---------
-Given the file tConvolveMPI.tgz, the benchmark can be extracted and compiled as follows:
-
-    $ tar zxvf tConvolveMPI.tgz 
-
-    $ cd tConvolveMPI
-
-    $ make
-    mpicxx -O3 -fstrict-aliasing -Wall -c tConvolveMPI.cc
-    mpicxx -O3 -fstrict-aliasing -Wall -c Stopwatch.cc
-    mpicxx -O3 -fstrict-aliasing -Wall -c Benchmark.cc
-    mpicxx -o tConvolveMPI tConvolveMPI.o Stopwatch.o Benchmark.o
 
 Execution
 ---------
